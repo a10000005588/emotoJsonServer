@@ -1,0 +1,9 @@
+{
+    "/api/emoto": "/getAllEmoto",
+    "/api/emoto/:hash": "/getEmoto",
+    "/api/emoto/:hash/calculateServiceFee": "/calculateServiceFee",
+
+    "/api/driver": "/getAllDriver",
+    "/api/driver/:hash": "/getDriver",
+    "/api/driver/:hash/payment/user/:userHash": "/createPayment" 
+}
